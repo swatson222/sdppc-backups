@@ -1,0 +1,88 @@
+{
+  "backup_date": "2026-04-11",
+  "backup_timestamp": "2026-04-11T07:40:43.394842+00:00",
+  "inventory_count": 0,
+  "users_count": 3,
+  "data": {
+    "_test": "connection_ok",
+    "tools": [],
+    "usage": [],
+    "users": [
+      {
+        "id": "user_admin",
+        "name": "Purchasing Manager",
+        "role": "admin",
+        "active": true,
+        "password": "admin123",
+        "username": "admin",
+        "permissions": {
+          "issueItems": true,
+          "manageLogs": true,
+          "manageUsers": true,
+          "viewReports": true,
+          "receiveItems": true,
+          "editInventory": true,
+          "manageVendors": true
+        }
+      },
+      {
+        "id": "user_1775682805630",
+        "name": "Sergio Almada",
+        "role": "manager",
+        "active": true,
+        "password": "SDPPC",
+        "username": "sergio",
+        "permissions": {
+          "issueItems": true,
+          "manageLogs": true,
+          "manageUsers": false,
+          "viewReports": true,
+          "receiveItems": true,
+          "editInventory": true,
+          "manageVendors": true
+        }
+      },
+      {
+        "id": "user_1775682831969",
+        "name": "Alonso Gastelum",
+        "role": "manager",
+        "active": true,
+        "password": "SDPPC",
+        "username": "alonso",
+        "permissions": {
+          "issueItems": true,
+          "manageLogs": true,
+          "manageUsers": false,
+          "viewReports": true,
+          "receiveItems": true,
+          "editInventory": true,
+          "manageVendors": true
+        }
+      }
+    ],
+    "toolLog": [],
+    "paintLog": [],
+    "settings": {
+      "name": "Admin",
+      "role": "Purchasing Manager",
+      "categories": [
+        "Paint",
+        "Powder",
+        "Blast Media",
+        "Chemicals",
+        "Consumables",
+        "Decals",
+        "Masking",
+        "PPE",
+        "Abrasive Tool",
+        "Paint Tool",
+        "Small Tool"
+      ],
+      "vendorMigrationDone": true
+    },
+    "inventory": [],
+    "purchases": [],
+    "supplyLog": [],
+    "countSessions": []
+  }
+}
